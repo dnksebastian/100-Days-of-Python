@@ -117,6 +117,7 @@ user_tip_float = 1 + int(user_tip) / 100
 user_people_int = int(user_people)
 
 result = user_bill_float * user_tip_float / user_people_int
-result_rounded = round(result, 2)
+#result_rounded = round(result, 2)
+result_rounded = "{:.2f}".format(result)
 
 print(f"Each person should pay: ${result_rounded}")
