@@ -120,6 +120,3 @@ result = user_bill_float * user_tip_float / user_people_int
 result_rounded = round(result, 2)
 
 print(f"Each person should pay: ${result_rounded}")
-
-
-
