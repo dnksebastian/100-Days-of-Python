@@ -84,3 +84,42 @@
 #         move()
 #     else:
 #         turn_left()
+
+
+## Course solution:
+
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+
+# while not at_goal():
+#     if right_is_clear():
+#         turn_right()
+#         move()
+#     elif front_is_clear():
+#         move()
+#     else:
+#         turn_left()
+
+
+#edge-case code:
+
+# def turn_right():
+#      turn_left()
+#      turn_left()
+#      turn_left()
+
+        
+# loop = 0  
+
+# while not at_goal():
+#      if right_is_clear() and loop < 4:
+#          turn_right()
+#          move()
+#          loop += 1
+#      elif front_is_clear():
+#          move()
+#          loop = 0
+#      else:
+#          turn_left()
